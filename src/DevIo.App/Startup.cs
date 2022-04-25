@@ -7,6 +7,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using DevIO.Data.Context;
+using DevIo.Business.Interfaces;
+using DevIO.Data.Repository;
 
 namespace DevIo.App
 {
@@ -26,6 +28,11 @@ namespace DevIo.App
             );
 
             services.AddRazorPages();
+
+            services.AddScoped<MeuDbContext>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IFonecedorRepository, FornecedorRepository>();
+            services.AddScoped<IEnderecoRepository, EnderecoRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

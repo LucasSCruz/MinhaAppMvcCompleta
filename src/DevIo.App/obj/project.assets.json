@@ -1525,7 +1525,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.16",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.16"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.16",
+          "System.Linq.Expressions": "4.3.0"
         },
         "compile": {
           "bin/placeholder/DevIo.Business.dll": {}

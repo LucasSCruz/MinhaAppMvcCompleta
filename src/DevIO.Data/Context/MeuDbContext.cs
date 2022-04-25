@@ -1,6 +1,8 @@
 ﻿using DevIo.Business.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace DevIO.Data.Context
 {
@@ -22,6 +24,11 @@ namespace DevIO.Data.Context
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
 
             base.OnModelCreating(modelBuilder);
-        } 
+        }
+
+        internal Task<Endereco> ASNoTracking()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
