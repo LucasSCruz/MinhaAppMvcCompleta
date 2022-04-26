@@ -1,3 +1,4 @@
+using DevIo.App.Data;
 using DevIo.Business.Interfaces;
 using DevIO.Data.Context;
 using DevIO.Data.Repository;
@@ -27,6 +28,10 @@ namespace DevIo.App
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<MeuDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+            );
+
+            services.AddDbContext<AplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             );
 
