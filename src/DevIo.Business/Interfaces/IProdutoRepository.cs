@@ -8,7 +8,7 @@ namespace DevIo.Business.Interfaces
     public interface IProdutoRepository : IRepository<Produto>
     {
         Task<IEnumerable<Produto>> ObterProdutosPorFornecedor(Guid id);
-        Task<IEnumerable<Produto>> ObterProdutosFornecedores(Guid id);
+        Task<IEnumerable<Produto>> ObterProdutosFornecedores();
         Task<Produto> ObterProdutoFornecedor(Guid id);
     }
 }

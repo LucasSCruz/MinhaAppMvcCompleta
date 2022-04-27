@@ -154,3 +154,13 @@ D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\refint\DevIo.App.
 D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\DevIo.App.pdb
 D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\DevIo.App.genruntimeconfig.cache
 D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\ref\DevIo.App.dll
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Fornecedores\Create.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Fornecedores\Delete.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Fornecedores\Details.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Fornecedores\Edit.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Fornecedores\Index.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Produtos\Create.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Produtos\Delete.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Produtos\Details.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Produtos\Edit.cshtml.g.cs
+D:\Projetos\MinhaAppMvcCompleta\src\DevIo.App\obj\Debug\net5.0\Razor\Views\Produtos\Index.cshtml.g.cs
